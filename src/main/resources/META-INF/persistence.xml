@@ -9,7 +9,7 @@ http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">
         <class>jpql.Team</class>
         <properties>
             <property name="javax.persistence.jdbc.Driver" value="org.h2.Driver" />
-            <property name="javax.persistence.jdbc.url"  value="jdbc:h2:tcp://localhost/~/test" />
+            <property name="javax.persistence.jdbc.url"  value="jdbc:h2:tcp://localhost:1521/test" />
             <property name="javax.persistence.jdbc.user" value="sa" />
             <property name="javax.persistence.jdbc.password" value="" />
             <property name="hibernate.dialect" value="org.hibernate.dialect.H2Dialect" />
